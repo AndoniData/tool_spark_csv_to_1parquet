@@ -1,0 +1,82 @@
+{
+    "description": "Datos de autorización para grupo de actividades (AGR_1251)",
+    "primaryKey": [
+        "MANDT",
+        "AGR_NAME",
+        "COUNTER"
+    ],
+    "fields": [
+        {
+            "name": "MANDT",
+            "type": "string",
+            "length": 3,
+            "description": "Identificación mandante"
+        },
+        {
+            "name": "AGR_NAME",
+            "type": "string",
+            "length": 30,
+            "description": "Nombre del rol"
+        },
+        {
+            "name": "COUNTER",
+            "type": "string",
+            "length": 6,
+            "description": "ID de menú para BIW"
+        },
+        {
+            "name": "OBJECT",
+            "type": "string",
+            "length": 10,
+            "description": "Objeto autorización en actualización maestro usuarios"
+        },
+        {
+            "name": "AUTH",
+            "type": "string",
+            "length": 12,
+            "description": "Nom.autorización e/actualización registro maestro usuario"
+        },
+        {
+            "name": "VARIANT",
+            "type": "string",
+            "length": 4,
+            "description": "Variantes para generador de perfil"
+        },
+        {
+            "name": "FIELD",
+            "type": "string",
+            "length": 10,
+            "description": "Nombre de campo de una autorización"
+        },
+        {
+            "name": "LOW",
+            "type": "string",
+            "length": 40,
+            "description": "Valor de la autorización"
+        },
+        {
+            "name": "HIGH",
+            "type": "string",
+            "length": 40,
+            "description": "Valor de la autorización"
+        },
+        {
+            "name": "MODIFIED",
+            "type": "string",
+            "length": 1,
+            "description": "Status interno de actualización de perfiles"
+        },
+        {
+            "name": "DELETED",
+            "type": "string",
+            "length": 1,
+            "description": "Indica, si objeto es borrado"
+        },
+        {
+            "name": "COPIED",
+            "type": "string",
+            "length": 1,
+            "description": "Indica, si objeto es copiado"
+        }
+    ]
+}
