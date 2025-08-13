@@ -21,4 +21,4 @@ def main():
     
 if __name__ == "__main__":
      main()
-     logger.info("Starting the data processing application...")
+     logger.info("Starting the data processing application...")     

@@ -18,10 +18,10 @@ def homologate_dataframe(df, schema_json_path):
     """
     with open(schema_json_path, 'r') as f:
         schema = json.load(f)
-    
+
     fields = schema['fields']['name']
     logger.info(f"Schema fields: {fields}")
-    
+
     
     
     

@@ -22,6 +22,7 @@ def extract(path):
             temp_df = spark.read.csv(os.path.join(path, file), header=True, inferSchema=True)
             logger.info(f"{file}: {temp_df.count()} rows")
     logger.info(f"Total rows in the DataFrame: {df.count()}")
+    
     return df
     # Stop the Spark session
     spark.stop()
