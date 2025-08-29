@@ -1,0 +1,9 @@
+*.parquet
+*.pyc
+__pycache__/
+
+
+data/input/
+data/output/
+
+requirements.txt
